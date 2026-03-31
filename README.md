@@ -64,11 +64,13 @@ Keystream
 ## Encryption
 C[i]=(P[i]+K[i])mod26
 
+
 ## Decryption
 P[i]=(C[i]−K[i])mod26 
 
 
-## CODE:
+
+### CODE:
 
 ```python
 def hashfxn1(message: str) -> str:
@@ -160,16 +162,19 @@ if __name__ == "__main__":
 
 ## 🔐 Security Analysis
 ✔ Strengths
+
 Ensures message integrity
 Avoids repeating-key weakness
 Simple and efficient
 
 ⚠ Limitations
+
 Not secure for modern cryptography
 Vulnerable to classical attacks
 Hash is not collision-resistant
 
 🚀 Improvements
+
 Use SHA-256 instead of custom hash
 Replace with HMAC
 Use AES encryption instead of Autokey
