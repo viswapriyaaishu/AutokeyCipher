@@ -14,7 +14,7 @@ A verification mechanism to detect tampering
 ## ⚙️ System Workflow
 ## 🔄 Flowchart Diagram
 
-![image]("C:\Users\s viswapriya\Downloads\mermaid-diagram.png")
+![image](AutokeyBlockDiagram.png)
 
 ## 🔹 Sender Side
 
