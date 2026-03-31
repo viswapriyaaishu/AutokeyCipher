@@ -14,7 +14,7 @@ A verification mechanism to detect tampering
 ## ⚙️ System Workflow
 ## 🔄 Flowchart Diagram
 
-![image](AutokeyBlockDiagram.png)
+![image](AutoKeyBlockDiagram.png)
 
 ## 🔹 Sender Side
 
