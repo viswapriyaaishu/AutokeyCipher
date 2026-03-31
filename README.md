@@ -67,6 +67,9 @@ C[i]=(P[i]+K[i])mod26
 ## Decryption
 P[i]=(C[i]−K[i])mod26 
 
+
+## CODE:
+
 ```python
 def hashfxn1(message: str) -> str:
     MOD = (1 << 61) - 1
